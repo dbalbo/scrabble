@@ -7,6 +7,8 @@ class String
     score_five = { "k"=> 5}
     score_eight = { "j"=> 8, "x"=> 8}
     score_ten = { "q"=> 10, "z"=> 10}
-      score_ten.fetch("q")
+
+      input = self
+      values = input.split(//)
   end
 end
